@@ -18,7 +18,7 @@ bot.on('ready', () => {
     music(bot)
 });
 
-bot.login('NDQyMDE2MDEyMzYwMDg5NjAx.Dc4rFQ.pUIKCTUQeRx9ODgmD9qIoHB4Rvg');
+bot.login('');
 
 bot.on('message' , message => {
     if (message.content === "ping"){

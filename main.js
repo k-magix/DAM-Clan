@@ -18,7 +18,7 @@ bot.on('ready', () => {
     music(bot)
 });
 
-bot.login('');
+bot.login(process.env.TOKEN);
 
 bot.on('message' , message => {
     if (message.content === "ping"){

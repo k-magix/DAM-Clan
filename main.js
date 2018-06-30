@@ -45,12 +45,12 @@ bot.on('message' , message => {
         }
 
         if (randnum == 1){
-            message.reply("Tu t'appelles Hervé Nourry");
+            message.reply("Tu t'appelles Maouno");
             console.log(randnum);
         }
 
         if (randnum == 2){
-            message.reply("Tu t'appelles Dominique Alliot");
+            message.reply("Tu Gabriel des Kids United");
             console.log(randnum);
         }
 
